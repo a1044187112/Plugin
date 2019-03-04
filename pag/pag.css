@@ -1,0 +1,25 @@
+*{
+	list-style: none;
+}
+#pag .pag_item{
+	display: inline-block;
+	width: 32px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #e6e6e5;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+}
+#pag .pag_item img{
+	width: 24px;
+	display: inline-block;
+	margin-top: 2.5px;
+}
+#pag .pag_item:hover{
+	background: #f1f1f1;
+}
+#pag .pag_item.active{
+	background: #1175cf;
+	color: white;
+}

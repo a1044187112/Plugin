@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="pag.css" rel="stylesheet" />
+		<script src="pag.js"></script>
+	</head>
+	<body>
+		<ul id="pag">
+			<li class="pag_item pag_left"><img src="img/pag_left.png" /> </li>
+			<li class="pag_item pag_num active">1</li>
+			<li class="pag_item pag_num">2</li>
+			<li class="pag_item pag_num">3</li>
+			<li class="pag_item pag_rihgt"><img src="img/pag_right.png" /></li>
+		</ul>
+	</body>
+	<script>
+		var totalPage = 10;
+		var thisPage = 1;
+		Pag.init(totalPage,thisPage,function(count){ // 返货当前点击的分页按钮
+			// count为当前需要显示的页数
+		});
+		
+	</script>
+</html>
